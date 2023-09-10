@@ -1,4 +1,6 @@
-[
+import { IFilm } from './../types'
+
+export const films: IFilm[] = [
     {
         "id": 1,
         "title": "Супермен",

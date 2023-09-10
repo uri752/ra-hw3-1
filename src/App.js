@@ -1,12 +1,12 @@
 import './App.css';
-import Stars from "./../src/components/Stars/Stars"
-import filmsData from './data/films.json';
-import {MdFavorite} from 'react-icons/md';
-import {MdFavoriteBorder} from 'react-icons/md';
-import {MdShare} from 'react-icons/md';
+import Stars from "./components/Stars/Stars"
+import { films } from './data/films';
+import { MdFavorite } from 'react-icons/md';
+import { MdFavoriteBorder } from 'react-icons/md';
+import { MdShare } from 'react-icons/md';
 
 function App() {
-  const starsData = filmsData.map( (film, index) => 
+  const starsData = films.map( (film, index) => 
     (
     <div className='item-film' key={index}>
       <div>
